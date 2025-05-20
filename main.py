@@ -10,7 +10,7 @@ from google.analytics.data_v1beta.types import RunReportRequest, DateRange, Dime
 app = FastAPI()
 
 # ID della proprietà GA4 (sostituisci con il tuo)
-PROPERTY_ID = "146603397"
+PROPERTY_ID = "355446183"
 
 # Credenziali lette dalla variabile di ambiente (che hai caricato su Railway)
 service_account_info = json.loads(os.getenv("GOOGLE_APPLICATION_CREDENTIALS_JSON"))
